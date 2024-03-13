@@ -1,0 +1,71 @@
+/* Resetting default margins and paddings */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Introduction Section */
+#introduction {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Skills Display */
+#skills {
+    background-color: #eaeaea;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+/* Contact Information */
+footer {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+}
+
+#contact ul {
+    list-style-type: none;
+}
+
+#contact ul li {
+    margin-top: 5px;
+}
+
+#contact ul li ul {
+    margin-top: 5px;
+}
+
+#contact ul li ul li {
+    margin-top: 3px;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    header, footer {
+        padding: 10px;
+    }
+
+    #introduction, #skills, #contact {
+        padding: 10px;
+    }
+}
